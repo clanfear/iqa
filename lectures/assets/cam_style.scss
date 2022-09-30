@@ -1,0 +1,43 @@
+/*-- scss:defaults --*/
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono);
+
+// text
+$font-family-sans-serif: "Open Sans", sans-serif !default;
+$font-family-monospace: "Fira Mono", sans-serif !default;
+$presentation-heading-font: "Montserrat", Impact, sans-serif;
+$presentation-heading-letter-spacing: -0.03em;
+$presentation-heading-line-height: 1.5;
+$mainFontSize: 32px;
+$code-block-font-size: 24px;
+
+// colors
+$code-block-bg: #000000;
+$code-block-border-color: #000000;
+
+/*-- scss:rules --*/
+.reveal p {
+    line-height: 1.5;
+}
+.reveal .slide strong {
+ color: #8A1538;
+}
+.reveal div.sourceCode {
+  background-color: #000000;
+}
+.reveal code {
+  color: $mainColor;
+  background-color: #C0C0C0;
+  border-radius: 3px;
+  padding: 2px;
+}
+/* Ripped blink from stack overflow result */
+.blink {
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

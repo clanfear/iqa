@@ -1,0 +1,20 @@
+---
+title: "Syllabus"
+author: "Charles C. Lanfear"
+format: html
+editor: visual
+---
+
+# Schedule
+
+Wednesday 14:00 - 16:00
+
+Location TBA
+
+# Materials
+
+There are two core texts for this course. They are available free online but may be ordered in print form.
+
+-   [Huntington-Klein, Nick. 2021 *The Effect: An Introduction to Research Design and Causality*](https://theeffectbook.net/)
+
+-   [Kaplan, Jacob. 2022. *Crime by the Numbers: A Criminologists Guide to R*](https://crimebythenumbers.com/)
